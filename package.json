@@ -1,0 +1,37 @@
+{
+  "name": "gamify-bot",
+  "version": "1.0.0",
+  "description": "Gamify your discord server!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./ || true",
+    "fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./ || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplybychris/gamify-bot.git"
+  },
+  "author": "simplybychris",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.19"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/simplybychris/gamify-bot/issues"
+  },
+  "homepage": "https://github.com/simplybychris/gamify-bot#readme"
+}

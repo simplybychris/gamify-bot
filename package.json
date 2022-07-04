@@ -4,7 +4,7 @@
   "description": "Gamify your discord server!",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node index.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./ || true",
     "fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./ || true",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,6 +4,7 @@ module.exports = {
     name: 'approve',
     description: 'Approve user\'s quest',
     async execute(message, bot, args) {
+        message.delete();
         const { id } = message.guild;
         const serverConfig = bot.config.serverConfig[id];
 
